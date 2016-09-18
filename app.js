@@ -10,7 +10,7 @@ var appRoutes = require('./routes/app');
 var messageRoutes = require('./routes/messages');
 
 var app = express();
-mongoose.connect('localhost:27017/node-angular');
+mongoose.connect('13.93.158.9:27017/node-angular');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
